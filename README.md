@@ -14,15 +14,49 @@ This is the frontend application for the Webhook Delivery System. It allows user
 ### Prerequisites
 - Node.js (v18 or higher)
 - npm (v9 or higher)
+- python
 
 ### Installation
-1.  Clone the repository or navigate to the project directory:
+1.  Clone the repository:
     ```bash
-    cd /path/to/project
+    git clone <repo_url>
     ```
-2.  Install dependencies:
-    ```bash
-    npm install
+### Setup for backend
+1.  Navigate to the project directory
+     ```bash
+    cd webhook/backend
+    ```
+2.  Create virtual environment (.venv)
+     ```bash
+    python3 -m venv .venv
+    ```
+3.  Activate Virtual Environment
+      ```bash
+    source .venv/bin/activate
+    ```
+4.  Install dependencies:
+        ```bash
+    pip install -r requirements.txt
+    ```
+5.  Create Migration Files
+      ```bash
+    python manage.py makemigrations
+    ```
+6.  Apply Migrations to Database
+      ```bash
+    python manage.py migrate
+    ```
+7.  Intilaize intigrations
+      ```bash
+    python integrations_intializer.py
+    ```
+8.  Run worker
+      ```bash
+    run_worker.py
+    ```
+9.  Start the development server (In new terminal)
+      ```bash
+    python manage.py runserver 0.0.0.0:8000
     ```
 
 ### Running the Application
