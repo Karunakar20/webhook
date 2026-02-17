@@ -35,7 +35,7 @@ This is the frontend application for the Webhook Delivery System. It allows user
     source .venv/bin/activate
     ```
 4.  Install dependencies:
-        ```bash
+       ```bash
     pip install -r requirements.txt
     ```
 5.  Create Migration Files
@@ -59,12 +59,20 @@ This is the frontend application for the Webhook Delivery System. It allows user
     python manage.py runserver 0.0.0.0:8000
     ```
 
-### Running the Application
-1.  Start the development server:
+### Setup for frontend
+1.  Navigate to the project directory
+     ```bash
+    cd webhook/frontend
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
     ```bash
     npm run dev
     ```
-2.  Open your browser and navigate to `http://localhost:5173`.
+4.  Open your browser and navigate to `http://localhost:5173`.
 
 ### Backend Configuration
 The application expects a backend service running at `http://192.168.0.135:8000`.
