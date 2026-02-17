@@ -50,7 +50,7 @@ This is the frontend application for the Webhook Delivery System. It allows user
     ```
 8.  Run worker
       ```bash
-    run_worker.py
+    python run_worker.py
     ```
 9.  Start the development server (In new terminal)
       ```bash
