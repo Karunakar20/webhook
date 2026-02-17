@@ -98,3 +98,4 @@ The frontend interacts with the following backend endpoints:
 -   **React**: UI Library
 -   **Vite**: Build tool and dev server
 -   **CSS**: Custom styling (no external frameworks used)
+-   **DRF**: Backend framework
