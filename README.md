@@ -1,6 +1,6 @@
 # Webhook Delivery System - Full Stack Application
 
-This is the frontend application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
+This is the full stack application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
 
 ## Features
 - **Event Dashboard**: View a list of all webhook events with their status (Success, Failed, Pending and Delivered).
