@@ -3,13 +3,11 @@
 This is the frontend application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
 
 ## Features
-- **Event Dashboard**: View a list of all webhook events with their status (Success, Failed, Pending).
+- **Event Dashboard**: View a list of all webhook events with their status (Success, Failed, Pending and Delivered).
 - **Event Details**: Click on any event to see full details including payload, headers, and metadata.
 - **Retry Mechanism**: Manually retry failed events with a single click.
 - **Create Event**: Trigger a new webhook event by supplying a JSON payload and API Key.
 - **Auto-Refresh**: The event list automatically refreshes every 5 seconds.
-
-## Setup Instructions
 
 ### Prerequisites
 - Node.js (v18 or higher)
