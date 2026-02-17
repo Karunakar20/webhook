@@ -1,4 +1,4 @@
-# Webhook Delivery System - Frontend
+# Webhook Delivery System - Full Stack Application
 
 This is the frontend application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
 
