@@ -83,7 +83,7 @@ The application expects a backend service running at `http://192.168.0.135:8000`
 The frontend interacts with the following backend endpoints:
 -   `GET /api/webhook/?cmd=get`: Fetches the list of webhook events.
 -   `GET /api/webhook/?cmd=get&id={id}`: Fetches details for a specific event.
--   `POST /api/webhook/?cmd=retry_event`: Retries a specific event. (Body: `{"id": "..."}`)
+-   `POST /api/webhook/?cmd=retry_event`: Retries a failed event. (Body: `{"id": "..."}`)
 -   `POST /api/webhook/?cmd=create_event`: Creates a new event. (Headers: `X-API-Key`, Body: `{"payload": ...}`)
 
 ## Usage Guide
