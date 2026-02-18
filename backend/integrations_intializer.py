@@ -22,7 +22,7 @@ def initializer():
           {
           "name": "OTP Verification Service",
           "api_key": "secret-key-003",
-          "target_url": "https://webhook.site/twilio/c9c9c9c9c-b8b9b8b9b8b9"
+          "target_url": "http://invalid-domain-xyz-123.com/webhook"
      }
           ]
      

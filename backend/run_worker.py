@@ -21,9 +21,8 @@ class RunWorker:
         
         try:
             response = requests.post(target_url, json=event.payload, headers=headers, timeout=10)
-            
-            # if 200 <= response.status_code < 300:
-            if DEMO:
+            if 200 <= response.status_code < 300:
+            # if DEMO:
                 event.status = Status.DELIVERED
                 event.last_error = None
                 event.save()
