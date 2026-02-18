@@ -102,3 +102,4 @@ The frontend interacts with the following backend endpoints:
 
 ## High level flow
 ![Webhook Flow](flow_images/high_level_flow.png)
+![Webhook Flow](flow_images/retry_logic_flow.png)
