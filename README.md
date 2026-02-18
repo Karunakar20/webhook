@@ -2,7 +2,7 @@
 
 This is the full stack application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
 
-# Deployed url
+# Deployment URL
 http://56.228.19.222:5173/
 
 ## Features
