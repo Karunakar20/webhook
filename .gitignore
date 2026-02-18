@@ -38,8 +38,9 @@ htmlcov/
 .pytest_cache/
 
 # Migrations (optional - usually we keep them)
-backend/*/migrations/
-# !*/migrations/
-# !*/migrations/__init__.py
+# Ignore migration files
+backend/*/migrations/*.py
 
+# But keep __init__.py
+!backend/*/migrations/__init__.py
 frontend/node_modules
