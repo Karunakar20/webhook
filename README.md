@@ -100,7 +100,7 @@ The frontend interacts with the following backend endpoints:
 -   **CSS**: Custom styling (no external frameworks used)
 -   **DRF**: Backend framework
 
-## System flow
+## System flow (Approch)
 
 ![Webhook Flow](flow_images/flow.png)
 
