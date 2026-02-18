@@ -99,3 +99,6 @@ The frontend interacts with the following backend endpoints:
 -   **Vite**: Build tool and dev server
 -   **CSS**: Custom styling (no external frameworks used)
 -   **DRF**: Backend framework
+
+## High level flow
+![Webhook Flow](flow_images/high_level_flow.png)
