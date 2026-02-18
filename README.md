@@ -2,6 +2,9 @@
 
 This is the full stack application for the Webhook Delivery System. It allows users to view webhook events, check details, retry failed events, and trigger new events manually.
 
+# Deployed url
+http://56.228.19.222:5173/
+
 ## Features
 - **Event Dashboard**: View a list of all webhook events with their status (Success, Failed, Pending and Delivered).
 - **Event Details**: Click on any event to see full details including payload, headers, and metadata.
